@@ -1,0 +1,129 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  height: 50px;
+  background-color: blue;
+  padding: 0 60px;
+}
+header #sosyal {
+  float: left;
+}
+header #sosyal a {
+  color: #a09a9a;
+  font-size: 25px;
+  margin-left: 10px;
+  text-decoration: none;
+  line-height: 50px;
+}
+header #sosyal a:hover {
+  color: black;
+}
+header #arama {
+  float: right;
+  line-height: 50px;
+}
+header #arama #txtArama {
+  height: 25px;
+  background-color: black;
+  border: none;
+  color: black;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+#container h1 {
+  color: blue;
+  font-size: 90px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 80px;
+}
+#container nav {
+  height: 100px;
+}
+#container nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+#container nav ul li {
+  display: inline;
+  margin-left: 80px;
+}
+#container nav ul li:first-child {
+  margin-left: 0;
+}
+#container nav ul li a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 16px;
+}
+#container nav ul li a:hover {
+  color: blue;
+}
+#container .aktif {
+  color: blue;
+}
+#container #banner {
+  width: 800px;
+  height: 326px;
+  background-image: url(../images/banner.jpg);
+  margin: 0 auto;
+}
+#container #banner p {
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 180px 20px;
+}
+#container #servisler {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  height: 500px;
+}
+#container #servisler h2 {
+  font-size: 30px;
+}
+#container #servisler p {
+  width: 70%;
+  margin: 0 auto;
+}
+#container #servisler #alt-servisler {
+  margin-top: 40px;
+}
+#container #servisler #alt-servisler div {
+  width: 500px;
+  float: left;
+  margin-bottom: 40px;
+}
+#container #servisler #alt-servisler .logo {
+  float: left;
+  width: 20%;
+  margin: 0;
+}
+#container #servisler #alt-servisler .logo img {
+  margin-top: 35px;
+}
+#container #servisler #alt-servisler .servis-aciklama {
+  float: left;
+  width: 80%;
+  margin: 0;
+}
+#container #servisler #alt-servisler .servis-aciklama h4 {
+  margin: 0;
+  color: black;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#container #servisler #alt-servisler .servis-aciklama p {
+  margin: 0;
+  width: 350px;
+  text-align: justify;
+}/*# sourceMappingURL=style.css.map */
